@@ -10,7 +10,12 @@ footer{
 	color:white;
 	padding:10px;
 }
-
+.media-icons{
+	display:flex;
+	/* border:1px solid white; */
+	justify-content:space-between;
+	width:250px;
+}
 .top{
 	display:flex;
 	justify-content:space-between;
@@ -26,7 +31,7 @@ footer{
 	display:flex;
 	justify-content:space-between;
 	/* align-items:center; */
-	border:1px solid white;
+	/* border:1px solid white; */
 	ul{
 		line-height:20px;
 		li{
