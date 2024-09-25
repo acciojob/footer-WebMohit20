@@ -1,1 +1,52 @@
 /* your code here */
+footer{
+	
+	display:flex;
+	flex-direction:column;
+	
+}
+.content{
+	background-color:black;
+	color:white;
+	padding:10px;
+}
+
+.top{
+	display:flex;
+	justify-content:space-between;
+	margin:10px 0px 40px 0px;
+	align-items:center;
+	/* border:1px solid white; */
+	.logo_name{
+		font-size:30px;
+	}
+}
+
+.link-boxes{
+	display:flex;
+	justify-content:space-between;
+	/* align-items:center; */
+	border:1px solid white;
+	ul{
+		line-height:20px;
+		li{
+		list-style:none;
+		}
+		span{
+			text-decoration:underline;
+			font-weight:700;
+			font-size:20px;
+		}
+	}
+}
+
+.bottom-details{
+	background-color:grey;
+	padding:10px;
+	display:flex;
+	justify-content:space-between;
+}
+
+
+
+
